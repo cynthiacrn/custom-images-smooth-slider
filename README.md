@@ -18,3 +18,5 @@ Project is now rendered at URL http://localhost:3000
 ## Credits
 
 All images come from [Unsplash](https://unsplash.com/fr) ✨
+
+Deploy [here](https://smooth-scroll-images-slider-2ox1qti7s-cynthiacrn.vercel.app/) 🚀

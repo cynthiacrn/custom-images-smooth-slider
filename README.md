@@ -1,4 +1,4 @@
-# Simple images slider
+# Responsive images slider with smooth effect 
 
 This codebase contains the code needed to run the project.
 

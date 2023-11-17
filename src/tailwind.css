@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "HarmondExtra";
+  src: url("./Harmond-ExtraBoldExpanded.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HarmondSemi";
+  src: url("./Harmond-SemiBoldCondensed.otf") format("opentype");
+}
+
+* {
+  @apply m-0 p-0 box-border;
+}
+
+body {
+  @apply bg-black overscroll-none;
+}
+
+.App {
+  text-align: center;
+  font-family: inter, sans-serif;
+  @apply text-black;
+}
+
+.slider-images__container {
+  @apply w-full flex lg:gap-24 gap-12 overflow-auto my-20;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.hide-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.slider-images__container-image {
+  @apply lg:min-w-[500px] min-w-[300px] bg-black relative px-6 lg:px-0;
+}
+
+.slider-images__image {
+  @apply w-[80%] h-[520px] object-cover;
+}
+
+.slider-images__description-positioner {
+  @apply absolute top-[60%] right-0 z-10;
+}
+
+.slider-images__description-container {
+  @apply relative;
+}
+
+.slider-images__description-title {
+  @apply text-[#C6C658] text-2xl;
+  font-family: HarmondExtra, serif;
+}
+
+.slider-images__description-subtitle {
+  @apply text-[#96965F] text-lg absolute top-[16px] right-0;
+  font-family: HarmondSemi, serif;
+}
